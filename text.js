@@ -8,8 +8,12 @@ arg3=parseFloat(prompt("Введіть аргумент c"));
 meat4=parseFloat(4*arg1*arg3);
 
 d=parseFloat(argq2-meat4);
+if (d<0){
+    alert("на множині дійсних чисел таке рівняння розв'язків немає");
+}
 
 qd=Math.sqrt(d);
+
 
 deno=parseFloat(2*arg1);
 
